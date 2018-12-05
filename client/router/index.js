@@ -11,6 +11,7 @@ export default class Routers extends React.Component {
     componentWillMount() {
         console.log('---router')
     }
+    // 路由暂时用的是基于hash的跳转，因为用BrowserRouter基于hTML5的没有成功
     render() {
         return (
             <HashRouter>

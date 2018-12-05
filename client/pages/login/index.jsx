@@ -33,7 +33,6 @@ export default class Login extends React.Component {
             password: this.state.password
         }
         post(login, data).then(res => {
-            console.log(res)
             if(res.data === 'true') {
                 this.props.history.push('/home')
             }else {

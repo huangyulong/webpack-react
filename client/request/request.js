@@ -1,3 +1,4 @@
+// 简单封装fetch请求方法  可以在这里进行拦截
 import 'whatwg-fetch'
 
 function request(method, url, body) {
